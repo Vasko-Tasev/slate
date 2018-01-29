@@ -12,7 +12,8 @@
     "url": "https://github.com/Shopify/slate/issues"
   },
   "bin": {
-    "slate-tools": "./cli.js"
+    "slate-tools": "yarn run cli",
+    "cli": "./cli.js"
   },
   "engine": ">=8.9.4",
   "dependencies": {
